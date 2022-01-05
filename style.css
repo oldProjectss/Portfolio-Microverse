@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #e5e5e5;
+  background-image: url(/img/image_geometry_1.svg);
+  background-repeat: no-repeat;
+}
+
+.header {
+}
+
+.mobile_menu_btn {
+  position: fixed;
+  right: 0;
+  margin-top: 19px;
+  margin-right: 16px;
+}
