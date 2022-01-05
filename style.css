@@ -21,13 +21,14 @@ body {
 
 .header {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .mobile_menu_btn {
   position: fixed;
   margin-top: 19px;
   margin-right: 16px;
+  right: 0;
 }
 
 /* Headline Section */
