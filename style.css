@@ -12,7 +12,7 @@
 
 body {
   background-color: #e5e5e5;
-  background-image: url(/img/image_geometry_1.svg);
+  background-image: url(img/image_geometry_1.svg);
   background-repeat: no-repeat;
   color: #1a2236;
 }
@@ -245,7 +245,7 @@ body {
 
 .my_languages {
   background-color: #1c528a;
-  background-image: url(/img/ic_languages_mob.svg);
+  background-image: url(img/ic_languages_mob.svg);
   background-position: right;
   background-position: bottom right;
   background-repeat: no-repeat;
@@ -256,7 +256,7 @@ body {
 
 .my_frameworks {
   background-color: #e2505c;
-  background-image: url(/img/ic_framework.svg);
+  background-image: url(img/ic_framework.svg);
   background-position: right;
   background-position: bottom right;
   background-repeat: no-repeat;
@@ -267,7 +267,7 @@ body {
 
 .my_skills {
   background-color: #febf52;
-  background-image: url(/img/ic_skills.svg);
+  background-image: url(img/ic_skills.svg);
   background-position: right;
   background-position: bottom right;
   background-repeat: no-repeat;
