@@ -74,12 +74,14 @@ body {
   color: #1a2236;
   background-color: #e5e5e5;
   border: 1px solid #1a2236;
+  cursor: pointer;
 }
 
 .headline_btn:active {
   color: #1a2236;
   background-color: #e5e5e5;
   border: 2px solid #1a2236;
+  cursor: pointer;
 }
 
 #headline_section img {
@@ -166,12 +168,14 @@ body {
   background-color: #fff;
   color: #1a2236;
   border: 1px #1a2236 solid;
+  cursor: pointer;
 }
 
 .project_btn:active {
   background-color: #fff;
   color: #1a2236;
   border: 2px #1a2236 solid;
+  cursor: pointer;
 }
 
 .fa-arrow-right {
@@ -218,12 +222,14 @@ body {
   color: #1a2236;
   background-color: #e5e5e5;
   border: 1px solid #1a2236;
+  cursor: pointer;
 }
 
 .about_btn:active {
   color: #1a2236;
   background-color: #e5e5e5;
   border: 2px solid #1a2236;
+  cursor: pointer;
 }
 
 .fa-download {
