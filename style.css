@@ -101,7 +101,7 @@ body {
   flex-direction: column;
 }
 
-.project img {
+.project_img {
   width: 320px;
   height: 186px;
 }
