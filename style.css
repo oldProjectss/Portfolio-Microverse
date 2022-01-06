@@ -155,9 +155,6 @@ body {
   margin-left: 12px;
 }
 
-.about_section {
-}
-
 .about_headline {
   font-family: "Playfair Display", serif;
   font-weight: 400;
@@ -215,6 +212,7 @@ body {
   margin-top: 16px;
   height: 289px;
 }
+
 .my_frameworks {
   background-color: #e2505c;
   background-image: url(/img/ic_framework.svg);
