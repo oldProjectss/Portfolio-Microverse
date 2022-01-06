@@ -70,6 +70,18 @@ body {
   margin-left: 16px;
 }
 
+.headline_btn:hover {
+  color: #1a2236;
+  background-color: #e5e5e5;
+  border: 1px solid #1a2236;
+}
+
+.headline_btn:active {
+  color: #1a2236;
+  background-color: #e5e5e5;
+  border: 2px solid #1a2236;
+}
+
 #headline_section img {
   width: 320px;
   height: 160px;
@@ -150,8 +162,19 @@ body {
   line-height: 24px;
 }
 
+.project_btn:hover {
+  background-color: #fff;
+  color: #1a2236;
+  border: 1px #1a2236 solid;
+}
+
+.project_btn:active {
+  background-color: #fff;
+  color: #1a2236;
+  border: 2px #1a2236 solid;
+}
+
 .fa-arrow-right {
-  color: #fff;
   margin-left: 12px;
 }
 
@@ -189,6 +212,18 @@ body {
   margin-left: 16px;
   padding: 13px;
   border: 1px solid #1a2236;
+}
+
+.about_btn:hover {
+  color: #1a2236;
+  background-color: #e5e5e5;
+  border: 1px solid #1a2236;
+}
+
+.about_btn:active {
+  color: #1a2236;
+  background-color: #e5e5e5;
+  border: 2px solid #1a2236;
 }
 
 .fa-download {
