@@ -1,7 +1,7 @@
 /* import fonts from Google fonts */
 
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Scope+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Scope+One&display=swap");
 /* Styles */
 
 * {
@@ -42,13 +42,13 @@ body {
 
 .headline {
   font-weight: 400;
-  font-family: "Scope One", serif;
+  font-family: "Scope One", sans-serif;
   margin-left: 16px;
   font-size: 50px;
 }
 
 .headline_description {
-  font-family: Poppins, sans-serif;
+  font-family: Poppins, sans-sans-serif;
   margin-top: 20px;
   margin-left: 16px;
   font-weight: 400;
@@ -102,7 +102,7 @@ body {
   margin-top: 40px;
   margin-left: 16px;
   margin-bottom: 32px;
-  font-family: "Scope One", serif;
+  font-family: "Scope One", sans-serif;
   color: #1a2236;
   font-size: 50px;
   line-height: 50px;
@@ -127,7 +127,7 @@ body {
 
 .project_name {
   font-size: 20px;
-  font-family: Poppins, sans-serif;
+  font-family: Poppins, sans-sans-serif;
   font-weight: 300;
   line-height: 16px;
   color: #fff;
@@ -139,7 +139,7 @@ body {
 }
 
 .project_language {
-  font-family: Poppins, sans-serif;
+  font-family: Poppins, sans-sans-serif;
   font-weight: 300;
   font-size: 10.33px;
   line-height: 8.27px;
@@ -157,7 +157,7 @@ body {
   color: #fff;
   outline: none;
   border: 1px #fff solid;
-  font-family: Poppins, sans-serif;
+  font-family: Poppins, sans-sans-serif;
   font-size: 16px;
   text-align: center;
   font-weight: 500;
@@ -183,7 +183,7 @@ body {
 }
 
 .about_headline {
-  font-family: "Scope One", serif;
+  font-family: "Scope One", sans-serif;
   font-weight: 400;
   font-size: 50px;
   line-height: 50px;
@@ -193,7 +193,7 @@ body {
 }
 
 .about_text {
-  font-family: Poppins, sans-serif;
+  font-family: Poppins, sans-sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
@@ -207,7 +207,7 @@ body {
   color: #fff;
   background-color: #1a2236;
   font-size: 16px;
-  font-family: Poppins, sans-serif;
+  font-family: Poppins, sans-sans-serif;
   font-weight: 500;
   line-height: 24px;
   text-align: center;
@@ -280,7 +280,7 @@ body {
 .my_frameworks span,
 .my_skills span {
   list-style: none;
-  font-family: Poppins, sans-serif;
+  font-family: Poppins, sans-sans-serif;
   font-weight: 800;
   font-size: 20px;
   line-height: 30px;
@@ -300,7 +300,7 @@ body {
 .box_item span {
   position: relative;
   left: -11px;
-  font-family: Poppins, sans-serif;
+  font-family: Poppins, sans-sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 27px;
