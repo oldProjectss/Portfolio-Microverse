@@ -2,17 +2,21 @@
 
 # Portfolio-Microverse
 
-> This is a portfolio project for Microverse curriculum using HTML
-for the skeleton and CSS, FlexBox for the styling and positioning
-of the elements on the page.
-in the future I will use JavaScript to add some animation
-and functionality.
+> This is a portfolio project for Microverse curriculum using HTML for the skeleton and CSS, FlexBox for the styling and positioning of the elements on the page. in the future I will use JavaScript to add some animation and functionality.
+
+![screenshot](img/screenshot.png)
 
 ## Built With
 
 - HTML
 - CSS
 - FlexBox
+
+## Live Demo
+
+[Live Demo Link](https://ismailco.github.io/Portfolio-Microverse/)
+
+## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 

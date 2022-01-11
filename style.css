@@ -203,7 +203,8 @@ body {
   width: 288px;
 }
 
-.about_btn {
+.about_btn,
+.contact_btn {
   color: #fff;
   background-color: #1a2236;
   font-size: 16px;
@@ -306,4 +307,137 @@ body {
   line-height: 27px;
   letter-spacing: -0.0525em;
   color: #fff;
+}
+
+#contact_section {
+  background-image: url(img/image_geometry_3.svg);
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  padding-top: 103px;
+}
+
+.contact_title {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  line-height: 50px;
+  color: #1a2236;
+  margin-left: 18px;
+}
+
+.contact_text {
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: -1%;
+  font-style: normal;
+  margin-left: 18px;
+  margin-top: 20px;
+  width: 288px;
+}
+
+.form {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input1 {
+  width: 288px;
+  height: 52px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #dfdfe0;
+  margin-bottom: 8px;
+  margin-left: 18px;
+  padding: 16px;
+}
+
+.input2 {
+  width: 288px;
+  height: 52px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #1a2236;
+  margin-bottom: 8px;
+  margin-left: 18px;
+  padding: 16px;
+}
+
+.input3 {
+  width: 288px;
+  height: 112px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #dfdfe0;
+  margin-left: 18px;
+  padding: 16px;
+}
+
+.contact_btn {
+  color: #fff;
+  background-color: #1a2236;
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 20px;
+  width: 288px;
+  margin-left: 16px;
+  padding: 13px;
+  border: 1px solid #1a2236;
+}
+
+.contact_btn:hover {
+  color: #1a2236;
+  background-color: #e5e5e5;
+  border: 1px solid #1a2236;
+  cursor: pointer;
+}
+
+.contact_btn:active {
+  color: #1a2236;
+  background-color: #e5e5e5;
+  border: 2px solid #1a2236;
+  cursor: pointer;
+}
+
+.contact_footer {
+  background-color: #1a2236;
+  margin-top: 64px;
+  width: 320px;
+  height: 150px;
+}
+
+.resume {
+  display: flex;
+  align-items: flex-end;
+}
+
+.footer_link {
+  color: #92dcdc;
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  display: inline-block;
+  padding-top: 32px;
+  margin-left: 16px;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.footer_icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.footer_icon {
+  color: #fff;
+  font-size: 24px;
 }
