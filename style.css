@@ -374,3 +374,12 @@ body {
   margin-bottom: 20px;
   margin-left: 18px;
 }
+.contact_footer {
+  background-color: #1a2236;
+  width: 320px;
+  height: 150px;
+}
+
+.icon_color {
+  color: white;
+}
