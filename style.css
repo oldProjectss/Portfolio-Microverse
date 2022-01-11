@@ -335,10 +335,42 @@ body {
   font-style: normal;
   margin-left: 18px;
   margin-top: 20px;
+  width: 288px;
 }
 
 .form {
   margin-top: 32px;
   display: flex;
   flex-direction: column;
+}
+
+.input1 {
+  width: 288px;
+  height: 52px;
+  border-radius: 4px;
+ background-color: #ffffff;
+ border: 1px solid #DFDFE0;
+ margin-bottom: 8px;
+ margin-left: 18px;
+}
+
+.input2 {
+  width: 288px;
+  height: 52px;
+  border-radius: 4px;
+ background-color: #ffffff;
+ border: 1px solid #1a2236;
+ margin-bottom: 8px;
+ margin-left: 18px;
+
+}
+
+.input3 {
+  width: 288px;
+  height: 112px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: 1px solid #dfdfe0;
+  margin-bottom: 20px;
+  margin-left: 18px;
 }
