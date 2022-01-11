@@ -377,7 +377,32 @@ body {
 }
 
 .contact_btn {
+  color: #fff;
+  background-color: #1a2236;
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
   margin-top: 20px;
+  width: 288px;
+  margin-left: 16px;
+  padding: 13px;
+  border: 1px solid #1a2236;
+}
+
+.contact_btn:hover {
+  color: #1a2236;
+  background-color: #e5e5e5;
+  border: 1px solid #1a2236;
+  cursor: pointer;
+}
+
+.contact_btn:active {
+  color: #1a2236;
+  background-color: #e5e5e5;
+  border: 2px solid #1a2236;
+  cursor: pointer;
 }
 
 .contact_footer {
