@@ -536,6 +536,7 @@ body {
   .headline_btn {
     margin-left: 160px;
   }
+
   #headline_section img {
     display: none;
   }
@@ -613,7 +614,7 @@ body {
     margin-top: 32px;
     display: flex;
     flex-direction: column;
-    justify-content: baseline;
+    justify-content: center;
     align-items: center;
   }
 
