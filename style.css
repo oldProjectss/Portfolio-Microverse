@@ -182,6 +182,8 @@ body {
   margin-left: 12px;
 }
 
+/* About section */
+
 .about_headline {
   font-family: "Playfair Display", serif;
   font-weight: 400;
@@ -308,6 +310,8 @@ body {
   letter-spacing: -0.0525em;
   color: #fff;
 }
+
+/* Contact section */
 
 #contact_section {
   background-image: url(img/image_geometry_3.svg);
@@ -440,4 +444,222 @@ body {
 .footer_icon {
   color: #fff;
   font-size: 24px;
+}
+
+.nav_menu {
+  display: none;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 3100px) {
+  body {
+    background-image: none;
+    overflow-x: hidden;
+  }
+
+  .header {
+    justify-content: center;
+    align-items: baseline;
+    width: 100vw;
+  }
+
+  .mobile_menu_btn {
+    display: none;
+  }
+
+  .nav_menu {
+    display: flex;
+    width: 100vw;
+  }
+
+  .nav_items {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    width: 100vw;
+  }
+
+  .nav_item {
+    list-style: none;
+    margin: 38px 49px 38px 1px;
+  }
+
+  .nav_link {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #1a2236;
+  }
+
+  /* Headline section */
+
+  #headline_section {
+    margin-top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header_content {
+    background-image: url(/img/image_dots.svg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 130px;
+    flex-basis: 100%;
+    margin-right: 94px;
+  }
+
+  .background_img {
+    background-image: url(img/desctop_background\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    flex-basis: 100%;
+  }
+
+  .headline {
+    font-size: 110px;
+    line-height: 110px;
+    margin-left: 160px;
+    width: 484px;
+  }
+
+  .headline_description {
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -1%;
+    margin-left: 160px;
+    width: 484px;
+  }
+
+  .headline_btn {
+    margin-left: 160px;
+  }
+  #headline_section img {
+    display: none;
+  }
+
+  /* Project section */
+
+  /* About section */
+
+  #about_section {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 244px;
+  }
+
+  .about_headline {
+    font-size: 110px;
+    line-height: 110px;
+  }
+
+  .about_text {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .tech {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-right: 96px;
+  }
+
+  .my_languages,
+  .my_frameworks,
+  .my_skills {
+    width: 289px;
+    margin: 0;
+  }
+
+  .desktop_about_img {
+    background-image: url(img/about_img.svg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+  }
+
+  /* Contact section */
+
+  #contact_section {
+    background-image: url(img/contact_img.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    margin-top: 158px;
+    padding-top: 168px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .contact_title {
+    font-size: 110px;
+    line-height: 110px;
+    margin-left: 0;
+  }
+
+  .contact_text {
+    margin-left: 0;
+    margin-top: 20px;
+    width: 548px;
+  }
+
+  .form {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+  }
+
+  .input1 {
+    width: 254px;
+    height: 60px;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 8px;
+    padding: 20px;
+  }
+
+  .input2 {
+    width: 254px;
+    height: 60px;
+    border: 1px solid #252c40;
+    margin-bottom: 8px;
+    padding: 20px;
+  }
+
+  .input3 {
+    width: 542px;
+    height: 123px;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+  }
+
+  /* footer */
+
+  .contact_footer {
+    margin-top: 132px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer_icons {
+    margin-right: 164.31px;
+    margin-top: 0;
+  }
+
+  .footer_icon {
+    margin-left: 28.37px;
+  }
+
+  .resume {
+    margin-left: 160px;
+  }
 }
