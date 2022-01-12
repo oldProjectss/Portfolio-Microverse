@@ -581,4 +581,85 @@ body {
     background-position: bottom right;
     background-repeat: no-repeat;
   }
+
+  /* Contact section */
+
+  #contact_section {
+    background-image: url(img/contact_img.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    margin-top: 158px;
+    padding-top: 168px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .contact_title {
+    font-size: 110px;
+    line-height: 110px;
+    margin-left: 0;
+  }
+
+  .contact_text {
+    margin-left: 0;
+    margin-top: 20px;
+    width: 548px;
+  }
+
+  .form {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+  }
+
+  .input1 {
+    width: 254px;
+    height: 60px;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 8px;
+    padding: 20px;
+  }
+
+  .input2 {
+    width: 254px;
+    height: 60px;
+    border: 1px solid #252c40;
+    margin-bottom: 8px;
+    padding: 20px;
+  }
+
+  .input3 {
+    width: 542px;
+    height: 123px;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+  }
+
+  /* footer */
+
+  .contact_footer {
+    margin-top: 132px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer_icons {
+    margin-right: 164.31px;
+    margin-top: 0;
+  }
+
+  .footer_icon {
+    margin-left: 28.37px;
+  }
+
+  .resume {
+    margin-left: 160px;
+  }
 }
