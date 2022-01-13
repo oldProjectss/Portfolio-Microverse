@@ -16,27 +16,48 @@
       <div class="mobile_menu_btn">
         <img src="img/mobile_menu.svg" alt="mobile menu" />
       </div>
+      <nav class="nav_menu">
+        <ul class="nav_items">
+          <li class="nav_item">
+            <a href="#headline_section" class="nav_link">Hello</a>
+          </li>
+          <li class="nav_item">
+            <a href="#projects_section" class="nav_link">Portfolio</a>
+          </li>
+          <li class="nav_item">
+            <a href="#about_section" class="nav_link">About</a>
+          </li>
+          <li class="nav_item">
+            <a href="#contact_section" class="nav_link">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <!-- Headline section -->
 
     <section id="headline_section">
-      <h1 class="headline">Ismail<br />Courr</h1>
-      <p class="headline_description">
-        Hello! I am a software developer! I can help you build a product,
-        feature or website. Taka a look of my works. If you like what you see
-        and have a project you need coded, don’t hesitate and contact me.
-      </p>
-      <button class="headline_btn" type="button">Start collaboration</button>
-      <img src="img/image_geometry_2.svg" alt="seperator" />
+      <div class="header_content">
+        <h1 class="headline">Ismail<br />Courr</h1>
+        <p class="headline_description">
+          Hello! I am a software developer! I can help you build a product,
+          feature or website. Taka a look of my works. If you like what you see
+          and have a project you need coded, don’t hesitate and contact me.
+        </p>
+        <button class="headline_btn" type="button">Start collaboration</button>
+        <img src="img/image_geometry_2.svg" alt="seperator" />
+      </div>
+      <div class="background_img"></div>
     </section>
 
     <!-- Projects section -->
 
     <section id="projects_section">
-      <h2 class="projects_headline">Projects</h2>
-      <article class="project">
-        <img class="project_img" src="img/project1.png" alt="project cover" />
+      <div class="project_headline_img">
+        <h2 class="projects_headline">Projects</h2>
+      </div>
+      <article class="project project1">
+        <img class="project_img" src="img/project1.svg" alt="project cover" />
         <div class="project_body">
           <h3 class="project_name">Project name goes here</h3>
           <ul class="project_languages">
@@ -49,8 +70,8 @@
           </button>
         </div>
       </article>
-      <article class="project">
-        <img class="project_img" src="img/project2.png" alt="project cover" />
+      <article class="project project2">
+        <img class="project_img" src="img/project2.svg" alt="project cover" />
         <div class="project_body">
           <h3 class="project_name">Project name goes here</h3>
           <ul class="project_languages">
@@ -63,8 +84,8 @@
           </button>
         </div>
       </article>
-      <article class="project">
-        <img class="project_img" src="img/project3.png" alt="project cover" />
+      <article class="project project3">
+        <img class="project_img" src="img/project3.svg" alt="project cover" />
         <div class="project_body">
           <h3 class="project_name">Project name goes here</h3>
           <ul class="project_languages">
@@ -77,8 +98,34 @@
           </button>
         </div>
       </article>
-      <article class="project">
-        <img class="project_img" src="img/project4.png" alt="project cover" />
+      <article class="project_img_2">
+        <img
+          class="project_image_img"
+          src="img/project_img_2.svg"
+          alt="decoration image"
+        />
+      </article>
+      <article class="project_img_1">
+        <img
+          class="project_image_img"
+          src="img/project_image_1.svg"
+          alt="decoration image"
+        />
+      </article>
+      <article class="project_img_3">
+        <img
+          class="img111"
+          src="img/project_img_3.1.svg"
+          alt="decoration image"
+        />
+        <img
+          class="img112"
+          src="img/project_img_3.2.svg"
+          alt="decoration image"
+        />
+      </article>
+      <article class="project project4">
+        <img class="project_img" src="img/project4.svg" alt="project cover" />
         <div class="project_body">
           <h3 class="project_name">Project name goes here</h3>
           <ul class="project_languages">
@@ -91,8 +138,22 @@
           </button>
         </div>
       </article>
-      <article class="project">
-        <img class="project_img" src="img/project5.png" alt="project cover" />
+      <article class="project project5">
+        <img class="project_img" src="img/project5.svg" alt="project cover" />
+        <div class="project_body">
+          <h3 class="project_name">Project name goes here</h3>
+          <ul class="project_languages">
+            <li class="project_language">HTML/CSS</li>
+            <li class="project_language">Ruby on Rails</li>
+            <li class="project_language">JavaScript</li>
+          </ul>
+          <button class="project_btn">
+            See this Project <i class="fa fa-arrow-right"></i>
+          </button>
+        </div>
+      </article>
+      <article class="project project6">
+        <img class="project_img" src="img/project6.svg" alt="project cover" />
         <div class="project_body">
           <h3 class="project_name">Project name goes here</h3>
           <ul class="project_languages">
@@ -110,16 +171,18 @@
     <!-- About section -->
 
     <section id="about_section">
-      <h2 class="about_headline">About</h2>
-      <p class="about_text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea
-        eiusmod
-      </p>
-      <button class="about_btn" type="button">
-        Get my CV <i class="fa fa-download"></i>
-      </button>
+      <div class="about_main">
+        <h2 class="about_headline">About</h2>
+        <p class="about_text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ea eiusmod
+        </p>
+        <button class="about_btn" type="button">
+          Get my CV <i class="fa fa-download"></i>
+        </button>
+      </div>
       <ul class="tech">
         <li class="my_languages">
           <span>Languages</span>
@@ -150,6 +213,7 @@
             <li class="box_item"><span>Terminal</span></li>
           </ul>
         </li>
+        <li class="desktop_about_img"></li>
       </ul>
     </section>
 
@@ -162,21 +226,23 @@
         tempor incididunt ut labore et dolore magna.
       </p>
       <form class="form" action="https://formspree.io/f/mzboznlq" method="POST">
-        <input
-          class="input1"
-          type="text"
-          name="name"
-          maxlength="30"
-          placeholder="Name"
-          required
-        />
-        <input
-          class="input2"
-          type="email"
-          name="email"
-          placeholder="exemple@mail.com"
-          required
-        />
+        <div class="inputs">
+          <input
+            class="input1"
+            type="text"
+            name="name"
+            maxlength="30"
+            placeholder="Name"
+            required
+          />
+          <input
+            class="input2"
+            type="email"
+            name="email"
+            placeholder="exemple@mail.com"
+            required
+          />
+        </div>
         <textarea
           class="input3"
           name="message"
@@ -201,7 +267,7 @@
         <a class="footer_icon" href=""><i class="fab fa-twitter"></i></a>
         <a class="footer_icon" href=""><i class="fab fa-linkedin"></i></a>
         <a class="footer_icon" href=""><i class="fab fa-medium-m"></i></a>
-        <a class="footer_icon" href=""><i class="far fa-hand-peace"></i></a>
+        <a class="footer_icon" href=""><i class="fab fa-angellist"></i></a>
       </div>
     </footer>
   </body>
