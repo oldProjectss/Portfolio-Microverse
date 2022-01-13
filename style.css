@@ -507,7 +507,6 @@ body {
     background-repeat: no-repeat;
     background-size: 130px;
     flex-basis: 100%;
-    margin-right: 94px;
   }
 
   .background_img {
@@ -523,6 +522,7 @@ body {
     line-height: 110px;
     margin-left: 160px;
     width: 484px;
+    margin-right: 94px;
   }
 
   .headline_description {
@@ -531,10 +531,12 @@ body {
     letter-spacing: -1%;
     margin-left: 160px;
     width: 484px;
+    margin-right: 94px;
   }
 
   .headline_btn {
     margin-left: 160px;
+    margin-right: 94px;
   }
 
   #headline_section img {
