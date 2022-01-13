@@ -513,7 +513,7 @@ body {
   }
 
   .header_content {
-    background-image: url(/img/image_dots.svg);
+    background-image: url(img/image_dots.svg);
     background-position: bottom right;
     background-repeat: no-repeat;
     background-size: 130px;
