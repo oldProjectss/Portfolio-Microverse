@@ -600,6 +600,10 @@ body {
     border: 2px solid #fff;
   }
 
+  .project_img {
+    width: 100%;
+  }
+
   .project1 {
     grid-column: 3 / 7;
     margin-left: 0;
@@ -634,10 +638,6 @@ body {
 
   .project .project_btn {
     margin-top: 60px;
-  }
-
-  .project_img {
-    width: 100%;
   }
 
   .project2 {
