@@ -606,7 +606,7 @@ body {
     height: 585px;
   }
 
-  .project1 img {
+  .project1 .project_img {
     height: 50%;
     object-fit: cover;
     object-position: top;
