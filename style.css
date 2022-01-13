@@ -702,7 +702,9 @@ body {
     grid-row: 3 / 4;
     margin-left: 0;
     position: relative;
-    top: -300px;
+    display: flex;
+    flex-direction: column-reverse;
+    top: -330px;
   }
 
   .project5 .project_btn {
@@ -712,8 +714,8 @@ body {
   .project5 .project_img {
     object-fit: cover;
     object-position: top;
-    position: absolute;
-    bottom: 0;
+    /* position: absolute;
+    bottom: 0; */
     height: 63%;
   }
 
