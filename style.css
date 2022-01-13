@@ -606,7 +606,7 @@ body {
     height: 585px;
   }
 
-  .project1 img {
+  .project1 .project_image_img {
     height: 50%;
     object-fit: cover;
     object-position: top;
@@ -634,6 +634,10 @@ body {
 
   .project .project_btn {
     margin-top: 60px;
+  }
+
+  .project_img {
+    width: 100%;
   }
 
   .project2 {
@@ -674,16 +678,13 @@ body {
   .project3 .project_body {
     display: none;
   }
+
   .project3 .project_img {
     object-fit: cover;
     object-position: top;
     /* height: 100%; */
     width: 100%;
     height: 465px;
-  }
-
-  .project_img {
-    width: 100%;
   }
 
   .project6 {
@@ -714,8 +715,6 @@ body {
   .project5 .project_img {
     object-fit: cover;
     object-position: top;
-    /* position: absolute;
-    bottom: 0; */
     height: 63%;
   }
 
@@ -728,7 +727,7 @@ body {
     position: relative;
   }
 
-  .project_img_2 img {
+  .project_img_2 .project_image_img {
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -765,6 +764,7 @@ body {
     width: 211.7px;
     height: 124.04px;
   }
+
   /* About section */
 
   #about_section {
