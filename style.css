@@ -662,6 +662,12 @@ body {
     margin: 0;
     padding: 0;
     display: block;
+    transition: transform 2s;
+  }
+
+  .project_img_1:hover {
+    background-color: #ffcccc;
+    transform: rotate(360deg);
   }
 
   .project_img_1 .project_image_img {
