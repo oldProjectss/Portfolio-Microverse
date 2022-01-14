@@ -662,7 +662,21 @@ body {
     margin: 0;
     padding: 0;
     display: block;
-    transition: transform 2s;
+  }
+
+  .project_img_1,
+  .project_img_2,
+  .project_img_3,
+  img,
+  .project {
+    transition: transform 1s ease-in-out;
+  }
+
+  .project_img_1:hover,
+  .project_img_2:hover,
+  .project_img_3:hover,
+  .project:hover {
+    transform: rotate(360deg);
   }
 
   .project_img_1:hover {
