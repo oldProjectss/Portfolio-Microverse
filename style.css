@@ -572,6 +572,12 @@ body {
 
   .projects_headline {
     transform: rotate(-90deg);
+    transition: transform 900ms ease-in-out;
+    padding: 100px;
+  }
+
+  .projects_headline:hover {
+    transform: rotate(0deg);
   }
 
   .project {
@@ -669,18 +675,13 @@ body {
   .project_img_3,
   img,
   .project {
-    transition: transform 1s ease-in-out;
+    transition: transform 700ms ease-in-out;
   }
 
   .project_img_1:hover,
   .project_img_2:hover,
   .project_img_3:hover,
   .project:hover {
-    transform: rotate(360deg);
-  }
-
-  .project_img_1:hover {
-    background-color: #ffcccc;
     transform: rotate(360deg);
   }
 
