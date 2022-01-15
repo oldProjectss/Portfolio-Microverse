@@ -56,6 +56,20 @@ body {
   line-height: 21px;
   width: 288px;
   height: 126px;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .headline_btn {
@@ -492,6 +506,13 @@ body {
   .nav_item {
     list-style: none;
     margin: 38px 49px 38px 1px;
+    transition: font-size 500ms, color 500ms, background-color 500ms;
+  }
+
+  .nav_item:hover {
+    font-size: x-large;
+    color: grey;
+    background-color: rgb(178, 173, 182);
   }
 
   .nav_link {
@@ -668,6 +689,12 @@ body {
     margin: 0;
     padding: 0;
     display: block;
+    transition: transform 2s;
+  }
+
+  .project_img_1:hover {
+    background-color: #ffcccc;
+    transform: rotate(360deg);
   }
 
   .project_img_1,
