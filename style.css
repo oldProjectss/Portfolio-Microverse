@@ -45,6 +45,9 @@ body {
   font-family: "Playfair Display", serif;
   margin-left: 16px;
   font-size: 50px;
+  animation-duration: 3s;
+  animation-name: slideout;
+  animation-iteration-count: 1;
 }
 
 .headline_description {
@@ -58,17 +61,30 @@ body {
   height: 126px;
   animation-duration: 3s;
   animation-name: slidein;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
 }
 
 @keyframes slidein {
   from {
     margin-left: 100%;
-    width: 300%;
-  }
-  to {
-    margin-left: 0%;
     width: 100%;
+  }
+
+  to {
+    margin-left: 22%;
+    width: 67%;
+  }
+}
+
+@keyframes slideout {
+  from {
+    margin-left: -100%;
+    width: -100%;
+  }
+
+  to {
+    margin-left: 22%;
+    width: 65%;
   }
 }
 
