@@ -12,6 +12,8 @@
 - HTML
 - CSS
 - FlexBox
+- Grid
+- Github Pages
 
 ## Live Demo
 
