@@ -13,6 +13,7 @@
 - CSS
 - FlexBox
 - Grid
+- JavaScript
 - Github Pages
 
 ## Live Demo

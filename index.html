@@ -16,9 +16,9 @@
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag("js", new Date());
+      gtag('js', new Date());
 
-      gtag("config", "G-7NN3GL3JP3");
+      gtag('config', 'G-7NN3GL3JP3');
     </script>
 
     <link rel="stylesheet" href="style.css" />
@@ -26,12 +26,32 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
+
     <title>Portfolio Full Stack Developer Ismail Courr</title>
   </head>
   <body>
     <header class="header">
-      <div class="mobile_menu_btn">
-        <img src="img/mobile_menu.svg" alt="mobile menu" />
+      <img
+        class="mobile_menu_btn"
+        src="img/mobile_menu.svg"
+        alt="mobile menu"
+      />
+      <div class="mobile_menu">
+        <i class="fas fa-times menu_close"></i>
+        <ul class="mobile_menu_items">
+          <li class="menu_item">
+            <a href="#headline_section" class="menu_link">Hello</a>
+          </li>
+          <li class="menu_item">
+            <a href="#projects_section" class="menu_link">Portfolio</a>
+          </li>
+          <li class="menu_item">
+            <a href="#about_section" class="menu_link">About</a>
+          </li>
+          <li class="menu_item">
+            <a href="#contact_section" class="menu_link">Contact</a>
+          </li>
+        </ul>
       </div>
       <nav class="nav_menu">
         <ul class="nav_items">
@@ -287,5 +307,6 @@
         <a class="footer_icon" href=""><i class="fab fa-angellist"></i></a>
       </div>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
