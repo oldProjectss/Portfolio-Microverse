@@ -1,7 +1,6 @@
-let menuButton = document.querySelector(".mobile_menu_btn");
-let mobileMenu = document.querySelector(".mobile_menu");
-const menuLinks = document.querySelector(".menu_link");
-let remButton = document.querySelector(".fa-times");
+const menuButton = document.querySelector(".mobile_menu_btn");
+const mobileMenu = document.querySelector(".mobile_menu");
+const remButton = document.querySelector(".fa-times");
 // transition style
 
 mobileMenu.style.right = "-800px";
@@ -24,10 +23,12 @@ remButton.addEventListener("click", (e) => {
   menuButton.style.display = "block";
 });
 
-menuLinks.addEventListener("click", (e) => {
-  e.target.style.right = "-800px";
-  setTimeout(() => {
-    mobileMenu.style.display = "none";
-  }, 900);
-  menuButton.style.display = "block";
+document.querySelectorAll(".menu_link").forEach((link) => {
+  link.addEventListener("click", (e) => {
+    mobileMenu.style.right = "-800px";
+    setTimeout(() => {
+      mobileMenu.style.display = "none";
+    }, 900);
+    menuButton.style.display = "block";
+  });
 });
