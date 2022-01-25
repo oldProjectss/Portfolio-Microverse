@@ -109,7 +109,13 @@ document.body.appendChild(projectPopup);
 // Create project object
 // const projectPop = {
 //   name = 'Project name goes here',
-//   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis ostrudexercitation ullamco laboris nisi.',
+//    description: 'Lorem ipsum dolor sit amet, consectetur
+//    adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+//    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+//    exercitation ullamco laboris nisi Ut aliquip ex ea commodo
+//    consequat. Lorem ipsum dolor sit amet,consectetur adipiscing
+//    elit, sed do eiusmod tempor incididunt utlabore et dolore
+//    magna aliqua. Ut enim ad minim veniam, quis ostrudexercitation ullamco laboris nisi.',
 //   featuredImage: '',
 //   technologies: '',
 //   linkToLiveVersion: '',
