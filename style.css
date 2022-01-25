@@ -190,12 +190,10 @@ body {
   bottom: 0;
   background-color: #e5e5e5;
   position: fixed;
-  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   z-index: 15;
-  /* padding: 21px; */
   display: none;
 }
 
@@ -269,6 +267,7 @@ body {
   border: 2px #1a2236 solid;
   cursor: pointer;
 }
+
 /* popup */
 
 .project {
