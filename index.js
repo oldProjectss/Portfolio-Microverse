@@ -80,15 +80,10 @@ sliderCountainer.classList.add('slider_container');
 
 miniImage.setAttribute('src', 'img/project1.svg');
 miniImage.classList.add('popup_mini_img');
-let miniImageTwo = miniImage.cloneNode(true);
-let miniImageThree = miniImageTwo.cloneNode(true);
-let miniImageFoor = miniImageThree.cloneNode(true);
-miniImageCountainer.append(
-  miniImage,
-  miniImageTwo,
-  miniImageThree,
-  miniImageFoor
-);
+const miniImageTwo = miniImage.cloneNode(true);
+const miniImageThree = miniImageTwo.cloneNode(true);
+const miniImageFoor = miniImageThree.cloneNode(true);
+miniImageCountainer.append(miniImage, miniImageTwo, miniImageThree, miniImageFoor);
 miniImageCountainer.classList.add('mini_img');
 
 imageContainer.append(sliderCountainer, miniImageCountainer);
@@ -108,14 +103,7 @@ buttonContainer.classList.add('popup_buttons');
 buttonContainer.append(liveDemo, sourceCode);
 
 projectPopup.classList.add('project_pop');
-projectPopup.append(
-  closeBtn,
-  projectName,
-  list,
-  imageContainer,
-  description,
-  buttonContainer
-);
+projectPopup.append(closeBtn, projectName, list, imageContainer, description, buttonContainer);
 
 document.body.appendChild(projectPopup);
 
@@ -126,7 +114,7 @@ document.body.appendChild(projectPopup);
 //   featuredImage: '',
 //   technologies: '',
 //   linkToLiveVersion: '',
-//   linkToSource = ''
+//   linkToSource = '',
 // }
 
 // Listen for a click on the projects links or close button

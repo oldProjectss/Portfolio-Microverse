@@ -311,6 +311,7 @@ body {
 .popup_mini_img {
   width: 25%;
 }
+
 /* popup */
 
 .project {
@@ -1094,6 +1095,7 @@ body {
   .project_pop {
     border: solid 20px #1a2236;
   }
+
   .popup_name {
     margin-top: 630px;
   }
@@ -1109,6 +1111,14 @@ body {
     justify-content: flex-start;
   }
 
+  .popup_btn {
+    width: 30%;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+  }
+
   .popup_btn:nth-child(2) {
     color: #fff;
     background-color: #1a2236;
@@ -1116,13 +1126,5 @@ body {
 
   .popup_btn:nth-child(1) {
     margin-left: 210px;
-  }
-
-  .popup_btn {
-    width: 30%;
-    margin-left: 30px;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
   }
 }
