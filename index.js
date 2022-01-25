@@ -90,8 +90,7 @@ imageContainer.append(sliderCountainer, miniImageCountainer);
 imageContainer.classList.add('img_slider');
 
 description.classList.add('popup_text');
-description.textContent =
-  'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.';
+description.textContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.';
 
 liveDemo.classList.add('popup_btn');
 liveDemo.innerHTML = 'See live <i class="fa fa-arrow-right"></i>';
@@ -123,7 +122,8 @@ closeBtn.addEventListener('click', () => {
   closeBtn.style.display = 'none';
 });
 
-document.querySelectorAll('.project_btn').forEach((btn) => {
+const projectLinks = document.querySelectorAll('.project_btn');
+projectLinks.forEach((btn) => {
   btn.addEventListener('click', () => {
     projectPopup.style.display = 'flex';
     closeBtn.style.display = 'block';
