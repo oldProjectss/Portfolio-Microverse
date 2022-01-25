@@ -34,6 +34,19 @@ document.querySelectorAll('.menu_link').forEach((link) => {
 });
 
 // Project popup
+
+// Create project object
+const projectPop = {
+  name: 'Project name goes here',
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+  featuredImage: 'img/project1.svg',
+  technologiesOne: 'HTML/CSS',
+  technologiesTwo: 'Ruby on Rails',
+  technologiesThree: 'JavaScript',
+  linkToLiveVersion: 'https://ismailcourr.ml',
+  linkToSource: 'https://ismailcourr.ml',
+};
+
 // create html elements
 const projectPopup = document.createElement('div');
 const closeBtn = document.createElement('i');
@@ -57,19 +70,19 @@ const sourceCode = document.createElement('button');
 // create content
 closeBtn.classList.add('fas', 'fa-times', 'popup_close');
 
-projectName.textContent = 'Project name goes here';
+projectName.textContent = projectPop.name;
 projectName.classList.add('popup_name');
 
-listItemOne.textContent = 'HTML/CSS';
+listItemOne.textContent = projectPop.technologiesOne;
 listItemOne.classList.add('popup_language');
-listItemTwo.textContent = 'Ruby on Rails';
+listItemTwo.textContent = projectPop.technologiesTwo;
 listItemTwo.classList.add('popup_language');
-listItemThree.textContent = 'JavaScript';
+listItemThree.textContent = projectPop.technologiesThree;
 listItemThree.classList.add('popup_language');
 list.classList.add('popup_languages');
 list.append(listItemOne, listItemTwo, listItemThree);
 
-image.setAttribute('src', 'img/project1.svg');
+image.setAttribute('src', projectPop.featuredImage);
 image.classList.add('popup_img');
 slider.appendChild(image);
 
@@ -78,7 +91,7 @@ sliderCountainer.appendChild(slider);
 
 sliderCountainer.classList.add('slider_container');
 
-miniImage.setAttribute('src', 'img/project1.svg');
+miniImage.setAttribute('src', projectPop.featuredImage);
 miniImage.classList.add('popup_mini_img');
 const miniImageTwo = miniImage.cloneNode(true);
 const miniImageThree = miniImageTwo.cloneNode(true);
@@ -90,13 +103,13 @@ imageContainer.append(sliderCountainer, miniImageCountainer);
 imageContainer.classList.add('img_slider');
 
 description.classList.add('popup_text');
-description.textContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.';
+description.textContent = projectPop.description;
 
 liveDemo.classList.add('popup_btn');
-liveDemo.innerHTML = 'See live <i class="fa fa-arrow-right"></i>';
+liveDemo.innerHTML = `<a href = "${projectPop.linkToLiveVersion}">See live <i class="fa fa-arrow-right"></i></a>`;
 
 sourceCode.classList.add('popup_btn');
-sourceCode.innerHTML = 'See source <i class="fab fa-github"></i>';
+sourceCode.innerHTML = `<a href = "${projectPop.linkToSource}">See source <i class="fab fa-github"></i></a>`;
 
 buttonContainer.classList.add('popup_buttons');
 buttonContainer.append(liveDemo, sourceCode);
@@ -105,22 +118,6 @@ projectPopup.classList.add('project_pop');
 projectPopup.append(closeBtn, projectName, list, imageContainer, description, buttonContainer);
 
 document.body.appendChild(projectPopup);
-
-// Create project object
-// const projectPop = {
-//   name = 'Project name goes here',
-//    description: 'Lorem ipsum dolor sit amet, consectetur
-//    adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-//    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-//    exercitation ullamco laboris nisi Ut aliquip ex ea commodo
-//    consequat. Lorem ipsum dolor sit amet,consectetur adipiscing
-//    elit, sed do eiusmod tempor incididunt utlabore et dolore
-//    magna aliqua. Ut enim ad minim veniam, quis ostrudexercitation ullamco laboris nisi.',
-//   featuredImage: '',
-//   technologies: '',
-//   linkToLiveVersion: '',
-//   linkToSource = '',
-// }
 
 // Listen for a click on the projects links or close button
 closeBtn.addEventListener('click', () => {

@@ -252,16 +252,20 @@ body {
 .popup_btn {
   margin-bottom: 29px;
   padding: 12px;
-  color: #1a2236;
   background-color: #fff;
   outline: none;
   border: 1px #1a2236 solid;
+  width: 85%;
+}
+
+.project_pop a {
+  color: #1a2236;
+  text-decoration: none;
   font-family: Poppins, sans-serif;
   font-size: 18px;
   text-align: center;
   font-weight: 500;
   line-height: 27px;
-  width: 85%;
 }
 
 .popup_btn:hover {
@@ -1105,7 +1109,7 @@ body {
   }
 
   .popup_buttons {
-    width: 85%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -1119,9 +1123,17 @@ body {
     align-content: center;
   }
 
+  .popup_btn .fa,
+  .popup_btn .fab {
+    padding-left: 10px;
+  }
+
   .popup_btn:nth-child(2) {
-    color: #fff;
     background-color: #1a2236;
+  }
+
+  .popup_btn:nth-child(2) a {
+    color: #fff;
   }
 
   .popup_btn:nth-child(1) {
