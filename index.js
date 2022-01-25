@@ -34,3 +34,23 @@ document.querySelectorAll('.menu_link').forEach((link) => {
     menuButton.style.display = 'block';
   });
 });
+
+// project popup
+const popupCloseBtn = document.querySelector('.popup_close');
+const projectPopup = document.querySelector('.project_pop');
+
+popupCloseBtn.addEventListener('click', () => {
+  projectPopup.style.display = 'none';
+  popupCloseBtn.style.display = 'none';
+});
+
+document.querySelectorAll('.project_btn').forEach((btn) => {
+  btn.addEventListener('click', () => {
+    projectPopup.style.display = 'flex';
+    popupCloseBtn.style.display = 'block';
+
+    // setTimeout(() => {
+    //   projectPopup.style.display = 'flex';
+    // }, 900);
+  });
+});
