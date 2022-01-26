@@ -217,7 +217,7 @@ form.addEventListener('input', () => {
   localStorage.setItem('contactForm', JSON.stringify(formInfo));
 });
 
-let formObj = JSON.parse(localStorage.getItem('contactForm'));
+const formObj = JSON.parse(localStorage.getItem('contactForm'));
 document.querySelector('.input1').value = formObj.name;
 document.querySelector('.input2').value = formObj.email;
 document.querySelector('.input3').value = formObj.message;
