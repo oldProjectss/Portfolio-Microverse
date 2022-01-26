@@ -196,7 +196,7 @@ function isLowerCase(s) {
   return s === s.toLowerCase();
 }
 
-formEmail.addEventListener('input', (e) => {
+formEmail.addEventListener('input', () => {
   if (isLowerCase(formEmail.value)) {
     formEmail.setCustomValidity('');
   } else {
