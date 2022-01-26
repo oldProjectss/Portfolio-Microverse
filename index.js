@@ -186,3 +186,22 @@ projectLinks.forEach((btn, index) => {
     document.body.appendChild(projectPopup);
   });
 });
+
+// form validation
+const form = document.querySelector('.form');
+const formEmail = document.querySelector('.input2');
+
+// function to check if the str is lowerCase
+function isLowerCase(s) {
+  return s === s.toLowerCase();
+}
+
+formEmail.addEventListener('input', () => {
+  if (isLowerCase(formEmail.value)) {
+    formEmail.setCustomValidity('');
+  } else {
+    formEmail.setCustomValidity('Please use lower case on your email!');
+    formEmail.reportValidity();
+    form.preventDefault();
+  }
+});
