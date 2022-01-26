@@ -620,7 +620,7 @@ body {
 .contact_footer {
   background-color: #1a2236;
   margin-top: 64px;
-  width: 320px;
+  width: 100%;
   height: 150px;
 }
 
