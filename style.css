@@ -93,27 +93,50 @@ body {
 
 #headline_section {
   margin-top: 104px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+
+.header_content {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .headline {
   font-weight: 400;
   font-family: 'Playfair Display', serif;
-  margin-left: 16px;
+  margin-left: -150px;
   font-size: 50px;
 }
 
 .headline_description {
   font-family: Poppins, sans-serif;
   margin-top: 20px;
-  margin-left: 16px;
+  margin-left: -33px;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
   width: 288px;
   height: 126px;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  margin-top: 20px;
+}
+
+.social-icon {
+  margin-right: 20px;
+  align-self: baseline;
+}
+
+.social-icon i {
+  font-size: 30px;
+  color: #1a2236;
 }
 
 .headline_btn {
@@ -125,7 +148,7 @@ body {
   outline: none;
   border: none;
   border-radius: 2px;
-  margin-left: 16px;
+  margin-left: -33px;
 }
 
 .headline_btn:hover {
@@ -392,6 +415,13 @@ body {
 
 /* About section */
 
+#about_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .about_headline {
   font-family: 'Playfair Display', serif;
   font-weight: 400;
@@ -526,6 +556,10 @@ body {
   background-repeat: no-repeat;
   margin-top: 50px;
   padding-top: 103px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact_title {
@@ -556,6 +590,11 @@ body {
   flex-direction: column;
 }
 
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
 .input1 {
   width: 288px;
   height: 52px;
@@ -572,7 +611,7 @@ body {
   height: 52px;
   border-radius: 4px;
   background-color: #fff;
-  border: 1px solid #1a2236;
+  border: 1px solid #dfdfe0;
   margin-bottom: 8px;
   margin-left: 18px;
   padding: 16px;
@@ -586,6 +625,12 @@ body {
   border: 1px solid #dfdfe0;
   margin-left: 18px;
   padding: 16px;
+}
+
+.input1:invalid,
+.input2:invalid,
+.input3:invalid {
+  border: 1px solid #252c40;
 }
 
 .contact_btn {
@@ -647,6 +692,7 @@ body {
   justify-content: space-around;
   align-items: center;
   margin-top: 30px;
+  width: 350px;
 }
 
 .footer_icon {
@@ -1047,8 +1093,14 @@ body {
     align-items: center;
   }
 
+  .inputs {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
   .input1 {
-    width: 254px;
+    width: 260px;
     height: 60px;
     border: 1px solid #e0e0e0;
     margin-bottom: 8px;
@@ -1056,9 +1108,9 @@ body {
   }
 
   .input2 {
-    width: 254px;
+    width: 260px;
     height: 60px;
-    border: 1px solid #252c40;
+    border: 1px solid #e0e0e0;
     margin-bottom: 8px;
     padding: 20px;
   }
